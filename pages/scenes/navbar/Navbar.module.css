@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoIcon {
+    font-size: 28px;
+}
+
+.logoText {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.linksContainer {
+    display: flex;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.link:hover,
+.selected {
+    color: #f8f8f8;
+}
