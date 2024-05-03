@@ -36,7 +36,7 @@ const Row1 = () => {
       }]
     };
     const barChartConfig = {
-      type: 'bar',
+      type: 'bar' as const, // Correctly typed 'bar'
       data: barData,
       options: {
         responsive: true,
@@ -75,7 +75,7 @@ const Row1 = () => {
       }]
     };
     const donutChartConfig = {
-      type: 'doughnut',
+      type: 'doughnut' as const, // Correctly typed 'doughnut'
       data: donutData,
     };
     const donutCtx = donutChartRef.current.getContext('2d');
