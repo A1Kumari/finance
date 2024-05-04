@@ -1,4 +1,5 @@
 // store.js
+import React from "react";
 import { configureStore } from "@reduxjs/toolkit";
 import { api } from "./api";
 
