@@ -68,7 +68,7 @@ const Row2 = (props: Props) =>{
               value={income}
               onChange={(e) => setIncome(e.target.value)}
               fullWidth
-              mb={2}
+            
             />
             <TextField
               label="Expenses"
@@ -76,7 +76,7 @@ const Row2 = (props: Props) =>{
               value={expenses}
               onChange={(e) => setExpenses(e.target.value)}
               fullWidth
-              mb={2}
+              
             />
             <TextField
               label="Savings"
@@ -84,7 +84,7 @@ const Row2 = (props: Props) =>{
               value={savings}
               onChange={(e) => setSavings(e.target.value)}
               fullWidth
-              mb={2}
+           
             />
             <Button type="submit" variant="contained" color="primary">Save</Button>
           </form>
