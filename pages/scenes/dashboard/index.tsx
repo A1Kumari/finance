@@ -4,7 +4,7 @@ import Row1 from './Row1';
 import Row2 from './Row2';
 import Row3 from './Row3';
 import BudgetTracker from './BudgetTracker'; // Import BudgetTracker component
-import GoalSetting from './GoalSetting';
+import GoalSetting from './goalSetting.jsx';
 import InvestmentPortfolio from './InvestmentPortfolio';
 import ChatIcon from '@mui/icons-material/Chat';
 import styles from '../../../styles/Home.module.css';
